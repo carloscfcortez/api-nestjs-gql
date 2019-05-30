@@ -1,6 +1,9 @@
 # api-nestjs-gql
 
-> run npm install
+> Install packages on cmd run
+```sh
+run npm install
+```
 
 > execute create database on server (default is postgres)
 
