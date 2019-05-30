@@ -1,0 +1,30 @@
+type Account {
+  id: ID
+  created: Date!
+  updated: Date!
+  name: String!
+  description: String!
+  accountType: String!
+  archived: Boolean!
+}
+
+type Query {
+  accounts(page: Int, newest: Boolean): [Account!]!
+  account(id: ID!): Account!
+}
+
+type Mutation {
+  createAccount(
+    name: String!
+    description: String!
+    accountType: String!
+    archived: Boolean!
+  ): Account!
+  updateAccount(
+    name: String!
+    description: String!
+    accountType: String!
+    archived: Boolean!
+  ): Account!
+  deleteAccount(id: ID!): Account!
+}

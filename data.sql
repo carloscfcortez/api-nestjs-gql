@@ -1,0 +1,1 @@
+CREATE DATABASE dbapi_nestjs_gql;
