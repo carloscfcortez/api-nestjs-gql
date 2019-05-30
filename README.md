@@ -1,8 +1,6 @@
 # api-nestjs-gql
 
+> run npm install
+> execute create database on server (default is postgres)
+> alter ormconfig on name databse or alter on enviroment file
 
--- npm install
-
--- run create database
-
--- alter ormconfig name database or name datanase on enviroment file
